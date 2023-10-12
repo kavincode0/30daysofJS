@@ -1,5 +1,4 @@
-.charAt(x)
-// .indexOf('t')
-// .substring(0, 4)
-// .slice(-1, 2)//starts from reverse if -ve
-// .trim()//whitespace characters
+const bal1 = new Number(100);
+console.log(typeof bal1)
+
+console.log(bal1.toString())
