@@ -31,3 +31,7 @@ console.log("slice ", sliceArr)
 const spliceArr = smpArr.splice(1, 3)
 console.log("splice: ", spliceArr)
 console.log("original to after splice: ", smpArr)
+
+dc = ["black adam", "flash", "blue beetle"]
+marvel = ["thor", "loki", "asgard"]
+console.log(marvel.push(dc))
