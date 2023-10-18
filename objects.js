@@ -20,5 +20,5 @@ console.log(typeof JsUser[sym])
 JsUser.greeting = function(){
     console.log(`Hello have a nice day, ${this.name}`)//string interpolation using backticks
 }
-console.log(JsUser.greeting())
+console.log(JsUser.greeting());
 
