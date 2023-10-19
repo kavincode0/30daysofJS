@@ -11,7 +11,7 @@ const JsUser = {
 }
 console.log(typeof JsUser["age"])
 // syntax for a symbol, representation of symbol
-console.log(typeof JsUser[sym]) 
+console.log(typeof JsUser[sym]);
 
 // to lock or freeze all values in object
 // Object.freeze(JsUser)
