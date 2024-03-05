@@ -12,7 +12,7 @@
 // BigInt
 // string => ""
 // Boolean
-// null => stadalone value (empty)
+// null => standalone value (empty)
 // undefined
 // symbol => unique
 const bigNumber = 39479287402343703n  //bigInt

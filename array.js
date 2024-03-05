@@ -24,7 +24,7 @@ console.log(myArr)
  console.log(typeof newArr);
 
 //  slice and splice(manipulates the original array, removes the range of values spliced) 
-const smpArr = [1, 2, 3, 4, 5]
+const smpArr = [0, 1, 2, 3, 4, 5]
 console.log("original: ", smpArr)
 
 const sliceArr = smpArr.slice(1, 3)

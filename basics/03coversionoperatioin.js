@@ -32,8 +32,8 @@ console.log(1+'2') //12
 console.log('1'+ 2 + 3) //123
 console.log(1 + 2 + '3') //33
 
-// console.log(+true)
-// console.log(+"")
+console.log(+true)
+console.log(+"")
 
 let num1, num2, num3
 num1 = num2 = num3 = 3 + 3

@@ -1,5 +1,4 @@
 // singleton
-
 // object literals
 const sym = Symbol("kavis")
 const age = Number(18)

@@ -26,12 +26,12 @@ const obj2 = {3: "b", 4: "n"}
 // 1. using assign
 // const obj3 = Object.assign({}, obj1, obj2, regularUser)
 // console.log(obj3);
-
+  
 // 2.spread operator(used more often)
 const obj3 = {...obj1, ...obj2}
 console.log(obj3)
 
-// array of objects is obtained from a db
+//array of objects is obtained from a db
 const users = [
     {
         id: 1, 
