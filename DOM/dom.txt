@@ -1,0 +1,39 @@
+js commands for manipulation:-
+ 
+ (1)document.getElementById(param)
+     document.getElementById(param).className
+ (2)param.style.color = 'pink'
+ (3)title.innerHTML
+     'Dom <span style="display: none;">hello<span>'
+    title.textContent
+     'Dom hello'
+    title.innerText
+    'Dom' 
+ (4)document.querySelector(param), param can be tag, id, class, input
+     document.querySelector('h1')
+     document.querySelector('#title')
+     document.querySelector('.heading')
+     document.querySelector('input[type="password"]')
+     document.querySelector('p:'first-child')
+
+ const myul = document.querySelector('ul')
+     undefined
+   myul.querySelector('li')
+     <li>​…​</li>​::marker​"one"</li>​
+   const myli = myul.querySelector('li')
+     undefined
+   console.log(myli)
+     undefined
+   console.log('myli')
+     undefined
+   myli.style.backgroundColor = 'green'
+     'green'
+   myli.style.padding = '20px'
+     '20px'
+ 
+ (5)document.querySelectorAll('li') gives the nodelist(different than array)
+ (6)document.getElementsByClassName('litem') gives htmlCollection(has no loop option)
+ (7)Converting htmlcollection and nodelist to array:
+    Array.from(nl)
+ (8).setAttribute("", "")
+ 
